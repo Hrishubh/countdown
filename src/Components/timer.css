@@ -1,0 +1,84 @@
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #0dcaf0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.timer-content {
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.timer-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.timer-input {
+    margin-bottom: 10px;
+}
+
+.timer-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0dcaf0;
+}
+
+.timer-input input {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+.timer-countdown {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #0dcaf0;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.timer-controls button {
+    padding: 6px 10px;
+    font-size: 20px;
+    background-color: black;
+    color: #0dcaf0;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer-controls button:hover {
+    background-color: #0dcaf0;
+    color: black;
+}
+
+/* Apply this CSS to your component or a relevant CSS file */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"] {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
